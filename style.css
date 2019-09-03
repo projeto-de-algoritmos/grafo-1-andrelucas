@@ -8,6 +8,7 @@ p{
     text-align: center;
     font-size: 7em;
     margin: 20px 0px;
+    padding: 20px;
 }
 
 a {
@@ -22,7 +23,7 @@ a {
     font-family: Monoton;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-    animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s linear infinite alternate;
   }
 
   p:nth-child(1) a:hover {
